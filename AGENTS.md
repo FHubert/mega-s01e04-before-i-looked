@@ -29,6 +29,10 @@ Read first: `docs/vision.md`, `docs/styleguide.md`. Decisions: `docs/adr/`.
 
 5. An issue is closed only when its "Done when" holds. If it can't hold yet, leave it open and
    say what it waits on.
+6. Every issue split from a plan carries, in this order: a first line `Source: plan.md § <n>`,
+   then `Scope`, `Done when` (checkable, copied from the plan) and `Blocked by`. It is labelled
+   `plan:<plan name>` (for example `plan:morning-digest`). An issue that waits on a person (a
+   review, a yes) stays open until that person has acted, not until the request is sent.
 
 ## Skills
 
